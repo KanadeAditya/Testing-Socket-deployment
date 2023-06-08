@@ -1,4 +1,4 @@
-const socket = io("http://localhost:5050",({transports:["websocket"]}));
+const socket = io("https://testing-socket.onrender.com",({transports:["websocket"]}));
 
 const chatForm  = document.getElementById("chat-form");
 
